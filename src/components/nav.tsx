@@ -10,7 +10,6 @@ function Nav() {
                     <img src="/src/assets/logo-text.png" alt="Logo" className="h-8 sm:h-10 w-auto object-contain" />
                 </div>
 
-                {/* Desktop Menu */}
                 <div className="hidden md:block">
                     <ul className="flex space-x-6 cursor-pointer font-medium">
                         <li className="text-pink-600">Home</li>
