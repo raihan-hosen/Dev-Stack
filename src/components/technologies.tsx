@@ -104,7 +104,7 @@ function TechnologiesSection() {
                                             <button
                                                 onClick={() => handleAddToStack(tech)}
                                                 disabled={isSelected}
-                                                className={`btn w-full rounded-xl text-sm font-medium transition-colors ${isSelected
+                                                className={`btn button-hover w-full rounded-xl text-sm font-medium transition-colors ${isSelected
                                                     ? 'btn-disabled bg-gray-100 text-gray-400 border-none cursor-not-allowed'
                                                     : 'btn-neutral bg-neutral text-neutral-content hover:bg-neutral/90'
                                                     }`}
@@ -147,7 +147,7 @@ function TechnologiesSection() {
                                                 </div>
                                                 <button
                                                     onClick={() => handleRemoveFromStack(item.id)}
-                                                    className="text-error hover:opacity-80 text-xs font-bold p-1"
+                                                    className="text-error hover:cursor-pointer opacity-80 text-xs font-bold p-1"
                                                     title="Remove from stack"
                                                 >
                                                     ✕

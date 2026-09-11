@@ -21,17 +21,17 @@ function Nav() {
                 </div>
 
                 <div className="hidden md:block">
-                    <ul className="flex items-center space-x-4 cursor-pointer font-medium">
+                    <ul className="flex items-center space-x-4 cursor-pointer font-medium cursor-pointer">
                         <li className="hover:text-pink-600 transition-colors">Sign in</li>
                         <li>
-                            <button className="px-5 py-2 bg-pink-600 text-white rounded-full hover:bg-pink-700 transition-colors">
+                            <button className="px-5 py-2 bg-pink-600 text-white rounded-full hover:bg-pink-700 transition-colors cursor-pointer">
                                 Sign Up
                             </button>
                         </li>
                     </ul>
                 </div>
 
-                <div className="md:hidden flex items-center space-x-2 text-sm font-medium z-10">
+                <div className="md:hidden flex items-center space-x-2 text-sm font-medium z-10 cursoor-pointer">
                     <span className="hover:text-pink-600 cursor-pointer text-xs sm:text-sm">Sign in</span>
                     <button className="px-3 py-1.5 bg-pink-600 text-white text-xs rounded-full hover:bg-pink-700 transition-colors">
                         Sign Up

@@ -19,7 +19,7 @@ function Hero() {
                         <button className="w-full sm:w-auto px-6 py-3 bg-gradient-to-r from-orange-500 to-pink-600 text-white font-medium rounded-full shadow-lg hover:opacity-90 transition-opacity">
                             Explore Technologies
                         </button>
-                        <button className="w-full sm:w-auto px-6 py-3 bg-white text-gray-800 font-medium rounded-full border border-gray-200 hover:bg-gray-50 transition-colors shadow-sm">
+                        <button className="button-hover w-full sm:w-auto px-6 py-3 bg-white text-gray-800 font-medium rounded-full border border-gray-200 hover:bg-gray-50 transition-colors shadow-sm">
                             Learn More
                         </button>
                     </div>
