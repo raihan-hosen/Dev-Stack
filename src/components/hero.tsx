@@ -25,7 +25,7 @@ function Hero() {
                     </div>
                 </div>
 
-                <div className="flex-1 flex justify-center items-center w-full max-w-md lg:max-w-none">
+                <div className="flex-1 flex justify-center items-centorer w-full max-w-md lg:max-w-none">
                     <img
                         src="/src/assets/banner-stack.png"
                         alt="Development Stack Illustration"

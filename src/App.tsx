@@ -1,5 +1,7 @@
 import Nav from './components/nav.tsx'
 import Hero from './components/hero.tsx'
+import Technologies from './components/technologies.tsx'
+import { ToastContainer } from 'react-toastify';
 
 function App() {
 
@@ -7,6 +9,8 @@ function App() {
     <>
       <Nav />
       <Hero />
+      <Technologies />
+      <ToastContainer />
     </>
   )
 }
