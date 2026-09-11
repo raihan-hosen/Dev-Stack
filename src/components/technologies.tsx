@@ -55,7 +55,6 @@ function TechnologiesSection() {
     return (
         <section className="px-4 sm:px-8 lg:px-16 py-12 bg-base-100 min-h-screen">
             <div className="max-w-7xl mx-auto">
-                {/* Section Header */}
                 <div className="mb-10">
                     <h2 className="text-3xl sm:text-4xl font-bold text-base-content mb-2">
                         Explore the <span className="text-pink-600">Technologies</span>
@@ -65,9 +64,7 @@ function TechnologiesSection() {
                     </p>
                 </div>
 
-                {/* Main Layout Grid */}
                 <div className="grid grid-cols-1 lg:grid-cols-4 gap-8 items-start">
-                    {/* Technologies Cards Grid */}
                     <div className="lg:col-span-3 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                         {technologies.map((tech) => {
                             const isSelected = stack.some((item) => item.id === tech.id);
@@ -76,7 +73,6 @@ function TechnologiesSection() {
                                 <div key={tech.id} className="card bg-base-100 border border-base-200 shadow-sm hover:shadow-md transition-shadow">
                                     <div className="card-body p-5 flex flex-col justify-between">
                                         <div>
-                                            {/* Top Badge & Icon */}
                                             <div className="flex items-center justify-between mb-4">
                                                 <div className="w-10 h-10 flex items-center justify-center bg-base-200 rounded-lg">
                                                     <img src={tech.icon} alt={tech.name} className="w-6 h-6 object-contain" />
@@ -88,7 +84,6 @@ function TechnologiesSection() {
                                                 )}
                                             </div>
 
-                                            {/* Title & Description */}
                                             <h3 className="card-title text-lg font-bold text-base-content mb-2">
                                                 {tech.name}
                                             </h3>
@@ -98,7 +93,6 @@ function TechnologiesSection() {
                                         </div>
 
                                         <div>
-                                            {/* Metadata Tags */}
                                             <div className="flex items-center justify-between text-xs text-base-content/60 mb-4">
                                                 <span className="badge badge-sm badge-outline">{tech.category}</span>
                                                 <span className="badge badge-sm badge-ghost">{tech.difficulty}</span>
@@ -107,7 +101,6 @@ function TechnologiesSection() {
                                                 </span>
                                             </div>
 
-                                            {/* Action Button - Updates or shows Selected status */}
                                             <button
                                                 onClick={() => handleAddToStack(tech)}
                                                 disabled={isSelected}
@@ -125,7 +118,6 @@ function TechnologiesSection() {
                         })}
                     </div>
 
-                    {/* Your Stack Sidebar */}
                     <div className="lg:col-span-1">
                         <div className="card bg-base-100 border border-base-200 shadow-sm sticky top-24">
                             <div className="card-body p-6">
