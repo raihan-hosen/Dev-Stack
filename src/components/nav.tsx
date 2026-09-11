@@ -3,11 +3,11 @@ function Nav() {
         <nav className="sticky top-0 z-50 bg-white text-black shadow-md w-full">
             <div className="relative flex items-center justify-between px-4 sm:px-8 py-4">
                 <div className="md:hidden flex items-center z-10">
-                    <img src="/src/ui/hamburger.png" alt="Hamburger Menu" className="h-6 w-6 object-contain" />
+                    <img src="/hamburger.png" alt="Hamburger Menu" className="h-6 w-6 object-contain" />
                 </div>
 
                 <div className="absolute left-1/2 -translate-x-1/2 md:static md:translate-x-0 z-0">
-                    <img src="/src/assets/logo-text.png" alt="Logo" className="h-8 sm:h-10 w-auto object-contain" />
+                    <img src="/logo-text.png" alt="Logo" className="h-8 sm:h-10 w-auto object-contain" />
                 </div>
 
                 <div className="hidden md:block">

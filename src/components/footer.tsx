@@ -6,7 +6,7 @@ function Footer() {
 
                 <div className="col-span-1 md:col-span-2 flex flex-col items-center md:items-start text-center md:text-left space-y-4">
                     <div className="flex items-center space-x-2">
-                        <img src="/src/assets/logo-text.png" alt="Dev Stack Logo" className="h-8 w-auto object-contain" />
+                        <img src="/logo-text.png" alt="Dev Stack Logo" className="h-8 w-auto object-contain" />
                     </div>
                     <p className="text-sm text-gray-500 max-w-sm leading-relaxed">
                         Curated tools, technologies, and resources for developers building modern software.
